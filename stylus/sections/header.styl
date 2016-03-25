@@ -1,0 +1,80 @@
+//header primer estado antes de modificar
+header
+	align-items center
+	background $gris-claro
+	display flex
+	flex-direction column
+	height 350px
+	justify-content center
+	overflow hidden
+	width 100%
+	transition all .5s ease
+	//modificación de header
+	&.small
+		flex-direction row
+		height 80px
+		justify-content space-around
+		.logo
+			height 50px
+			width 106.5px
+		.menu
+			margin 0
+			a
+				font-size 14px
+		.social
+			li
+				&:first-child
+					img
+						height 18px
+						width auto
+				img
+					height auto
+					width 26px
+	.logo
+		height 100px
+		margin 0
+		padding 0
+		width 213px
+		transition all .5s ease
+	.menu
+		margin 2em 0 1.5em 0
+		transition all .5s ease
+		li
+			display inline-block
+			margin 0 .5em
+			a
+				border-bottom 2px solid transparent
+				color $negro
+				display block
+				font-weight $negrita
+				opacity .25
+				padding 0 0 .25em 0
+				text-decoration none
+				text-transform uppercase
+				transition all .5s ease
+				&:hover
+					opacity 1
+				&.selected
+					border-bottom 2px solid $azul
+					opacity 1
+	.social
+		align-items center
+		display flex
+		li
+			display inline-block
+			margin 0 .5em
+			&:first-child
+				a
+					img
+						height 24px
+						transition all .5s ease
+						width auto
+			a
+				opacity .12
+				transition all .5s ease
+				&:hover
+					opacity .35
+				img
+					height auto
+					transition all .5s ease
+					width 30px

@@ -1,4 +1,5 @@
 *.cfg
+*.zip
 *.log
 .htaccess
 sitemap.xml
