@@ -16,7 +16,7 @@ header
 		justify-content space-around
 		.logo
 			height 50px
-			width 106.5px
+			width auto
 		.menu
 			margin 0
 			a
@@ -31,10 +31,10 @@ header
 					height auto
 					width 26px
 	.logo
-		height 100px
+		height auto
 		margin 0
 		padding 0
-		width 213px
+		width 130px
 		transition all .5s ease
 	.menu
 		margin 2em 0 1.5em 0
@@ -53,10 +53,13 @@ header
 				text-transform uppercase
 				transition all .5s ease
 				&:hover
+					// text-shadow 0 0 40px rgba(black, .75)
 					opacity 1
 				&.selected
 					border-bottom 2px solid $azul
 					opacity 1
+					&:hover
+						// text-shadow 0 0 0 rgba(black, 0)
 	.social
 		align-items center
 		display flex

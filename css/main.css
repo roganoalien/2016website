@@ -134,36 +134,24 @@ body {
   width: 100%;
 }
 header {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: #eee;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: 350px;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   overflow: hidden;
   width: 100%;
   transition: all 0.5s ease;
 }
 header.small {
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   height: 80px;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  justify-content: space-around;
 }
 header.small .logo {
   height: 50px;
-  width: 106.5px;
+  width: auto;
 }
 header.small .menu {
   margin: 0;
@@ -180,10 +168,10 @@ header.small .social li img {
   width: 26px;
 }
 header .logo {
-  height: 100px;
+  height: auto;
   margin: 0;
   padding: 0;
-  width: 213px;
+  width: 130px;
   transition: all 0.5s ease;
 }
 header .menu {
@@ -213,11 +201,7 @@ header .menu li a.selected {
   opacity: 1;
 }
 header .social {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
 }
 header .social li {
@@ -242,15 +226,10 @@ header .social li a img {
   width: 30px;
 }
 .who {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+  align-items: center;
+  box-shadow: 0 -5px 60px 10px rgba(0,0,0,0.05);
   display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   overflow: hidden;
   width: 100%;
 }
@@ -261,15 +240,9 @@ header .social li a img {
   width: 70%;
 }
 .who .about {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 6em 0;
 }
 .who .about .profile {
@@ -335,4 +308,15 @@ header .social li a img {
 }
 .who .skills .m-holder .level.sesenta {
   width: 60%;
+}
+.portafolio {
+  background: #f5f5f5;
+  padding-top: 2em;
+}
+.portafolio .container {
+  margin: 0 auto;
+}
+.portafolio .card-image img {
+  height: auto;
+  width: 100%;
 }
