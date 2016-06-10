@@ -10,26 +10,20 @@ header
 	width 100%
 	transition all .5s ease
 	//modificación de header
-	&.small
-		flex-direction row
-		height 80px
-		justify-content space-around
-		.logo
-			height 50px
-			width auto
-		.menu
-			margin 0
-			a
-				font-size 14px
-		.social
-			li
-				&:first-child
-					img
-						height 18px
-						width auto
-				img
-					height auto
-					width 26px
+	.header-container
+		align-items center
+		display flex
+		flex-direction column
+		justify-content center
+		transition all .5s ease
+		height 100%
+		width 100%
+	svg
+		display none
+		fill $negro
+		height 24px
+		opacity .34
+		width 24px
 	.logo
 		height auto
 		margin 0
@@ -60,6 +54,12 @@ header
 					opacity 1
 					&:hover
 						// text-shadow 0 0 0 rgba(black, 0)
+			@media (max-width: 600px)
+				font-size 13px
+				margin 0 .25em
+			@media (max-width: 360px)
+				font-size 10px
+				margin 0 .25em
 	.social
 		align-items center
 		display flex
@@ -81,3 +81,70 @@ header
 					height auto
 					transition all .5s ease
 					width 30px
+			@media (max-width: 600px)
+				&:first-child
+					a
+						img
+							height 18px
+							width auto
+				a
+					img
+						height auto
+						width 24px
+	&.small
+		flex-direction row
+		height 80px
+		position fixed
+		left 0
+		top 0
+		justify-content space-around
+		z-index 50
+		.header-container
+			flex-direction row
+			justify-content space-around
+			margin 0 auto
+			width 900px
+			@media (max-width: 992px)
+				// max-width 680px
+				width 100%
+			@media (max-width: 720px)
+				justify-content center
+				svg
+					display block
+					margin 0 3em
+		.logo
+			height 50px
+			width auto
+		.menu
+			margin 0
+			@media (max-width: 720px){
+				display none
+			}
+			a
+				font-size 14px
+		.social{
+			li{
+				&:first-child{
+					img{
+						height 18px
+						width auto
+					}
+				}
+				img{
+					height auto
+					width 26px
+				}
+				@media (max-width: 720px){
+					&:first-child{
+						img{
+							height 14px
+							width auto
+						}
+					}
+					img{
+						height auto
+						width 22px
+					}
+				}
+			}
+		}

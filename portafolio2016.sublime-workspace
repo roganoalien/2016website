@@ -1,0 +1,499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"colo",
+				"color-shadow"
+			],
+			[
+				"me",
+				"medium-xs"
+			],
+			[
+				"medi",
+				"medium-lg"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"col",
+				"color-dorado"
+			],
+			[
+				"pointer",
+				"pointer-events"
+			],
+			[
+				"_height",
+				"_heightNosotros"
+			],
+			[
+				"_heigh",
+				"_heightCortes"
+			],
+			[
+				"corte",
+				"cortes_li"
+			],
+			[
+				"_corte",
+				"_cortesEvents"
+			],
+			[
+				"body",
+				"bodyContainer"
+			],
+			[
+				"get",
+				"_getPositions"
+			],
+			[
+				"bodyC",
+				"bodyContainer"
+			],
+			[
+				"border",
+				"border-box"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6265,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stylus/sections/portfolio.styl",
+			"settings":
+			{
+				"buffer_size": 1272,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stylus/sections/who.styl",
+			"settings":
+			{
+				"buffer_size": 1359,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"advance",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 414.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/2016website",
+		"/C/xampp/htdocs/2016website/js",
+		"/C/xampp/htdocs/2016website/stylus"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/2016website/js/materialize.js",
+		"/C/xampp/htdocs/2016website/stylus/vars.styl",
+		"/C/xampp/htdocs/asomas/blog/wp-config.php",
+		"/C/xampp/htdocs/asomas/blog/wp-settings.php",
+		"/C/xampp/htdocs/2016website/img/portafolio_01.jpg",
+		"/C/xampp/htdocs/2016website/stylus/sections/contact.styl",
+		"/C/xampp/htdocs/2016website/stylus/sections/portfolio.styl",
+		"/C/xampp/htdocs/2016website/stylus/main.styl",
+		"/C/xampp/htdocs/2016website/stylus/global.styl",
+		"/C/xampp/htdocs/2016website/stylus/sections/who.styl",
+		"/C/xampp/htdocs/2016website/stylus/sections/header.styl",
+		"/C/xampp/htdocs/2016website/css/materialize.css",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/popup.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/contacto.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/servicios.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/global.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/nosotros.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/main.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/home.styl",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/nav.styl",
+		"/C/xampp/htdocs/carneHueso/build/img/menu.svg",
+		"/C/xampp/htdocs/carneHueso/stylus/sections/loading.styl",
+		"/C/xampp/htdocs/carneHueso/js/carne.js",
+		"/C/xampp/htdocs/carneHueso/build/img/close.svg",
+		"/C/Users/roch_/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/carneHueso/stylus/config/vars.styl",
+		"/C/xampp/htdocs/black-and-white/black-and-white-dev-8499049d0e309bf01d02f0ff5b67f7c1186983e1/public/scripts/home.js",
+		"/C/xampp/htdocs/carneHueso/stylus/config/fonts.styl",
+		"/C/xampp/htdocs/carneHueso/js/libs/perfect-scrollbar.js",
+		"/D/git-repositorios/carneHueso/stylus/libs/animate.styl",
+		"/D/git-repositorios/carneHueso/stylus/sections/loading.styl",
+		"/D/git-repositorios/carneHueso/stylus/config/vars.styl",
+		"/C/Users/roch_/Desktop/PAM/OLD/TITULO.HTML",
+		"/C/Users/roch_/Desktop/PAM/OLD/FRAME.HTML",
+		"/C/Users/roch_/Desktop/PAM/OLD/FORMULARIO.HTML",
+		"/C/Users/roch_/Desktop/PAM/OLD/EMPRESA.HTML",
+		"/C/Users/roch_/Desktop/PAM/OLD/MENU.HTML",
+		"/C/Users/roch_/Desktop/PAM/OLD/CONTENIDO.HTML",
+		"/C/Users/roch_/Desktop/PAM/TITULO.HTML",
+		"/C/Users/roch_/Desktop/PAM/MENU.HTML",
+		"/C/Users/roch_/Desktop/PAM/CONTENIDO.HTML",
+		"/C/Users/roch_/Desktop/PAM/FRAME.HTML",
+		"/C/Users/roch_/Desktop/PAM/FORMULARIO.HTML",
+		"/C/Users/roch_/Desktop/PAM/EMPRESA.HTML",
+		"/C/xampp/htdocs/black-and-white/black-and-white-dev-8499049d0e309bf01d02f0ff5b67f7c1186983e1/resources/assets/styles/sections/serve.less",
+		"/C/xampp/htdocs/black-and-white/black-and-white-dev-8499049d0e309bf01d02f0ff5b67f7c1186983e1/resources/assets/styles/sections/video.less",
+		"/C/xampp/htdocs/black-and-white/black-and-white-dev-8499049d0e309bf01d02f0ff5b67f7c1186983e1/index.html",
+		"/C/xampp/htdocs/black-and-white/black-and-white-dev-8499049d0e309bf01d02f0ff5b67f7c1186983e1/.gitignore",
+		"/C/xampp/htdocs/lobato/wp-content/themes/lobato/single.php",
+		"/C/xampp/htdocs/lobato/wp-content/themes/lobato/index.php",
+		"/C/xampp/htdocs/lobato/wp-content/themes/lobato/footer.php",
+		"/C/xampp/htdocs/lobato/wp-content/themes/lobato/functions.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\2016website\\stylus",
+			"C:\\xampp\\htdocs\\carneHueso\\stylus\\sections",
+			"C:\\xampp\\htdocs\\carneHueso\\stylus",
+			"C:\\xampp\\htdocs\\lobato\\wp-content\\themes\\lobato"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"translateY",
+			"all",
+			"24",
+			"5",
+			"negro",
+			"class=\"validate\"",
+			"skills",
+			"card hoverable",
+			"Roboto-Thin",
+			"fonts/roboto/",
+			"\"Roboto\"",
+			"Roboto",
+			"Material Icons",
+			"icon",
+			"font-face",
+			"icon",
+			"activator",
+			"Machete</span>",
+			"alt=\"Machete\">",
+			"card hoverable",
+			"close",
+			"%\n",
+			"xs",
+			"450pc",
+			"%\n",
+			"menu",
+			"70",
+			"media",
+			"'all",
+			"@media",
+			"7px",
+			"<i>",
+			"parrilla móvil",
+			"60px",
+			"></",
+			"_theScroll",
+			"')\n",
+			"cortes",
+			"parrilla",
+			"/favicons",
+			"$fuente-titulo",
+			"css/",
+			"/build",
+			"build",
+			"/css",
+			"/build",
+			"									",
+			"								",
+			"										",
+			"									",
+			"								",
+			"							",
+			"						",
+			"					",
+			"				",
+			"			",
+			"		",
+			"C:\\Users\\USUARIO\\Desktop\\CAFE_WEB\\grano.jp",
+			"_$real_body",
+			"_$smScroll",
+			"_scrollAnimation",
+			"_$smRmenu",
+			"getSections()",
+			"_sections_count",
+			":sections_count",
+			"getSections",
+			"_$body",
+			"closeMenu",
+			"_$closeMenu",
+			"opencloseMenu",
+			"_$header_container",
+			"_$btn_",
+			"menu",
+			"_$smRmenu",
+			"_$replayServe",
+			"_current_step",
+			"acc",
+			"_$stepUno",
+			"play",
+			"public/",
+			"lobato_logo.jpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4918,
+								4918
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "stylus/sections/portfolio.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1258,
+								1258
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 654.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "stylus/sections/who.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portafolio2016.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

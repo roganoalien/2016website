@@ -3,10 +3,30 @@
 	box-sizing border-box
 //body
 body
-	background $blanco
+	background white
 	color $gris
 	font-family $fuente
 	font-size 16px
 	font-weight 400
 	overflow-x hidden
 	width 100%
+	&.no-scroll{
+		overflow hidden
+	}
+	.content-container{
+		background $blanco
+		box-shadow 0 -5px 60px 10px rgba(black, .05)
+		transition margin-top .5s
+		h2{
+			color $gris
+			font-size 26px
+			font-weight $negrita
+			text-align center
+		}
+		&.small{
+			margin-top 60px
+		}
+	}
+	.container{
+		max-width 680px
+	}

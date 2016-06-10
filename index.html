@@ -3,170 +3,177 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Template Portafolio/blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<!-- fuentes a descargar para producción -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/materialize.css" />
 	<link rel="stylesheet" href="css/main.css" />
 </head>
-<body>
+<body class="no-scroll">
 	<header id="header">
-		<img src="img/logo2016.png" alt="Temporal Logo" class="logo" />
-		<ul class="menu">
-			<li><a href="#top" class="selected">inicio</a></li>
-			<li><a href="#acerca">acerca</a></li>
-			<li><a href="#portafolio">portafolio</a></li>
-			<li><a href="#contacto">contacto</a></li>
-			<li><a href="blog.html">blog</a></li>
-		</ul>
-		<ul class="social">
-			<li><a href=""><img src="img/icons/facebook.svg" alt="Facebook" /></a></li>
-			<li><a href=""><img src="img/icons/twitter.svg" alt="Twitter" /></a></li>
-			<li><a href=""><img src="img/icons/github.svg" alt="Github" /></a></li>
-			<li><a href=""><img src="img/icons/behance.svg" alt="Behance" /></a></li>
-		</ul>
+		<div class="header-container">
+			<img src="img/logo2016.png" alt="Temporal Logo" class="logo" />
+			<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+			    <path d="M0 0h24v24H0z" fill="none"/>
+			    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+			</svg>
+			<ul class="menu">
+				<li><a href="#top" class="selected">inicio</a></li>
+				<li><a href="#acerca">acerca</a></li>
+				<li><a href="#portafolio">portafolio</a></li>
+				<li><a href="#contacto">contacto</a></li>
+				<li><a href="blog.html">blog</a></li>
+			</ul>
+			<ul class="social">
+				<li><a href=""><img src="img/icons/facebook.svg" alt="Facebook" /></a></li>
+				<li><a href=""><img src="img/icons/twitter.svg" alt="Twitter" /></a></li>
+				<li><a href=""><img src="img/icons/github.svg" alt="Github" /></a></li>
+				<li><a href=""><img src="img/icons/behance.svg" alt="Behance" /></a></li>
+			</ul>
+		</div>
 	</header>
-	<section class="who" id="acerca">
-		<article class="about">
-			<div class="profile">
-				<img src="img/temp-yo.jpg" alt="Yo mismo" />
-			</div>
-			<div class="texts">
-				<h1>Rodrigo García</h1>
-				<p>
-					Artista, gamer, músico, geek, ninja, fotógrafo, serio, tímido, tolerante, easy-going, respetuoso y autodidacta. Me gusta estar informado y aprender cosas nuevas. Sin miedo a emprender o a tomar el liderazgo. Seguro en mis capacidades y habilidades.
-				</p>
-			</div>
-		</article>
-		<article class="skills">
-			<p>HTML / CSS / Stylus / LESS / SASS</p>
-			<div class="m-holder">
-				<div class="level noventa"></div>
-			</div>
-			<p>Javascript / jQuery</p>
-			<div class="m-holder">
-				<div class="level setenta"></div>
-			</div>
-			<p>Git / Gulp</p>
-			<div class="m-holder">
-				<div class="level sesenta"></div>
-			</div>
-		</article>
-	</section>
-	<section class="portafolio" id="portafolio">
-		<article class="container">
+	<div class="content-container">
+		<section class="who container" id="acerca">
+			<article class="about row">
+				<div class="col s12 m4 valign-wrapper">
+					<div class="profile">
+						<img src="img/temp-yo.jpg" alt="Yo mismo" />
+					</div>
+				</div>
+				<div class="col s12 m8 texts-containter valign-wrapper">
+					<div class="texts">
+						<h1>Rodrigo García</h1>
+						<p>
+							Artista, gamer, músico, geek, ninja, fotógrafo, serio, tímido, tolerante, easy-going, respetuoso y autodidacta. Me gusta estar informado y aprender cosas nuevas. Sin miedo a emprender o a tomar el liderazgo. Seguro en mis capacidades y habilidades.
+						</p>
+					</div>
+				</div>
+			</article>
+			<article class="skills row">
+				<div class="col s12">
+					<p>HTML / CSS / Stylus / LESS / SASS</p>
+					<div class="m-holder">
+						<div class="level noventa"></div>
+					</div>
+					<p>Javascript / jQuery</p>
+					<div class="m-holder">
+						<div class="level setenta"></div>
+					</div>
+					<p>Git / Gulp</p>
+					<div class="m-holder">
+						<div class="level sesenta"></div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="portafolio" id="portafolio">
+			<article class="container">
+				<div class="row">
+					<div class="col s12">
+						<h2>PORTAFOLIO</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m6 l6">
+						<div class="port-container">
+							<div class="img-container">
+								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+							</div>
+							<div class="color-shadow">
+								<h3>Herencia Halls</h3>
+								<p>Front-End</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="port-container">
+							<div class="img-container">
+								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+							</div>
+							<div class="color-shadow">
+								<h3>Herencia Halls</h3>
+								<p>Front-End</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="port-container">
+							<div class="img-container">
+								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+							</div>
+							<div class="color-shadow">
+								<h3>Herencia Halls</h3>
+								<p>Front-End</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="port-container">
+							<div class="img-container">
+								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+							</div>
+							<div class="color-shadow">
+								<h3>Herencia Halls</h3>
+								<p>Front-End</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="port-container">
+							<div class="img-container">
+								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+							</div>
+							<div class="color-shadow">
+								<h3>Herencia Halls</h3>
+								<p>Front-End</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="contacto container" id="contacto">
 			<div class="row">
-				<div class="col s12 m6 l4">
-					<div class="card small hoverable waves-effect waves-block waves-light">
-						<div class="card-image">
-							<img src="img/portafolio_01.jpg" alt="Machete" class="activator">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Machete</span>
-							<p>Fake Link</p>
-						</div>
-						<div class="card-reveal">
-						    <span class="card-title grey-text text-darken-4">Machete<i class="material-icons right">close</i></span>
-						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l4">
-					<div class="card small hoverable waves-effect waves-block waves-light">
-						<div class="card-image">
-							<img src="img/portafolio_01.jpg" alt="Machete" class="activator">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Machete</span>
-							<p>Fake Link</p>
-						</div>
-						<div class="card-reveal">
-						    <span class="card-title grey-text text-darken-4">Machete<i class="material-icons right">close</i></span>
-						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l4">
-					<div class="card small hoverable waves-effect waves-block waves-light">
-						<div class="card-image">
-							<img src="img/portafolio_01.jpg" alt="Machete" class="activator">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Machete</span>
-							<p>Fake Link</p>
-						</div>
-						<div class="card-reveal">
-						    <span class="card-title grey-text text-darken-4">Machete<i class="material-icons right">close</i></span>
-						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l4">
-					<div class="card small hoverable waves-effect waves-block waves-light">
-						<div class="card-image">
-							<img src="img/portafolio_01.jpg" alt="Machete" class="activator">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Machete</span>
-							<p>Fake Link</p>
-						</div>
-						<div class="card-reveal">
-						    <span class="card-title grey-text text-darken-4">Machete<i class="material-icons right">close</i></span>
-						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l4">
-					<div class="card small hoverable waves-effect waves-block waves-light">
-						<div class="card-image">
-							<img src="img/portafolio_01.jpg" alt="Machete" class="activator">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Machete</span>
-							<p>Fake Link</p>
-						</div>
-						<div class="card-reveal">
-						    <span class="card-title grey-text text-darken-4">Machete<i class="material-icons right">close</i></span>
-						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m6 l4">
-					<div class="card small hoverable waves-effect waves-block waves-light">
-						<div class="card-image">
-							<img src="img/portafolio_01.jpg" alt="Machete" class="activator">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Machete</span>
-							<p>Fake Link</p>
-						</div>
-						<div class="card-reveal">
-						    <span class="card-title grey-text text-darken-4">Machete<i class="material-icons right">close</i></span>
-						    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at dignissimos similique maxime est ad suscipit laboriosam iure, architecto quo? Doloribus, totam autem odio eos consequatur perferendis quod illo facere.</p>
-						</div>
-					</div>
+				<div class="co s12">
+					<h2>CONTACTO</h2>
 				</div>
 			</div>
-			<!-- <div class="row">
-			        <div class="col s12 m7">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div> -->
-		</article>
-	</section>
+			<div class="row">
+				<form class="col s12">
+					<div class="row">
+						<div class="col s12 m6">
+							<input type="text" name="name" id="name" placeholder="Nombre">
+						</div>
+						<div class="col s12 m6">
+							<input type="email" name="email" id="email" placeholder="Correo">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12 m6">
+							<input type="text" name="asunto" id="asunto" placeholder="Asunto">
+						</div>
+						<div class="col s12 m6">
+							<input type="tel" name="tel" id="tel" placeholder="Teléfono">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+						<textarea name="contenido" id="contenido" placeholder="Mensaje"></textarea>
+						</div>
+						<div class="col s12">
+							<button class="btn-large waves-effect waves-light center-align" type="submit" name="action">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
 	<script src="js/jquery-2.2.3.js"></script>
-	<script src="js/materialize.js"></script>
+	<script src="js/portafolio.js"></script>
+	<script>
+		$(document).ready(function(){
+			PORTA.init();
+		});
+	</script>
 </body>
 </html>

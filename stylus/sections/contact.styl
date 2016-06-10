@@ -1,0 +1,47 @@
+.contacto {
+	padding-top 6em
+	button{
+		background $azul
+		display block
+		margin 0 auto
+		&:hover{
+			background $azul-oscuro
+		}
+	}
+	input, textarea{
+		background rgba($negro, .05)
+		border 0
+		border-bottom 3px solid rgba($negro, .1)
+		box-sizing border-box
+		color rgba($negro, .7)
+		padding 0 2em
+		outline none
+		&:focus,
+		&:active{
+			box-shadow 0 8px 17px 0 rgba($negro, .1) !important
+			border-bottom 3px solid rgba($azul, .5) !important
+			outline none !important
+		}
+	}
+	textarea{
+		height 200px
+		margin-bottom 2em
+		padding 2em 2em
+		resize none
+	}
+	::-webkit-input-placeholder {
+	   color $gris
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color $gris 
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color $gris 
+	}
+
+	:-ms-input-placeholder {  
+	   color $gris 
+	}
+}
