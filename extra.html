@@ -1,0 +1,61 @@
+<div class="ajax-get" id="p-scroll">
+	<div class="ajax-container">
+		<hgroup>
+			<h3>Hobbies</h3>
+			<h4>Audio, Vídeo, Ilustración, Fotografía y Diseño</h4>
+		</hgroup>
+		<div class="content">
+			<p style="text-align:center;font-weight:700;text-transform: uppercase;">Audio</p>
+			<p>Las canciones fueron creadas con amigos para los festivales de la canción del Tecnológico de Monterrey Campus Morelia y también para la banda de Rock en la que formaba parte (atSky). Todas están en calidad demo y fueron grabadas de forma casera.</p>
+			<br>
+			<p style="text-align:center;font-weight:700;">Pistolas de Madera</p>
+			<audio controls class="audio-player">
+			  <source src="img/projects/extra/pistolas.mp3" type="audio/mp3">
+			</audio>
+			<p style="text-align:center;font-weight:700;">Hey - atSky</p>
+			<audio controls class="audio-player">
+			  <source src="img/projects/extra/hey.mp3" type="audio/mp3">
+			</audio>
+			<p style="text-align:center;font-weight:700;">Nubes de Cristal - atSky</p>
+			<audio controls class="audio-player">
+			  <source src="img/projects/extra/nubes.mp3" type="audio/mp3">
+			</audio>
+			<p style="text-align:center;font-weight:700;">Improvisación en G#m - backtrack descargado de internet</p>
+			<audio controls class="audio-player">
+			  <source src="img/projects/extra/improvisacion.mp3" type="audio/mp3">
+			</audio>
+			<br>
+			<p style="text-align:center;font-weight:700;text-transform: uppercase;">Video</p>
+			<p>Random fue creado a través de una maquina de percusiones aleatoria hecha con arduino y loops. El otro vídeo es un montaje de una presentación de la banda Hassen (RIP) tocando en vivo en Morelia con una de sus canciones.</p>
+			<br>
+			<div class="video-player" data-type="youtube" data-video-id="Ulu68o3dWYI"></div>
+			<br>
+			<br>
+			<div class="video-player" data-type="youtube" data-video-id="7byMvCzV-tA"></div>
+			<br>
+			<p style="text-align:center;font-weight:700;text-transform: uppercase;">Ilustración, Diseño y Fotografía</p>
+			<p>Proyectos hechos en clase mientras estudiaba, como proyectos propios alternos y como experimentos de diseño e ilustración.</p>
+			<br>
+			<img src="img/projects/extra/extra.jpg" alt="Fotografía">
+			<img src="img/projects/extra/extra_04.jpg" alt="Diseño">
+			<img src="img/projects/extra/extra_05.jpg" alt="Diseño">
+			<img src="img/projects/extra/extra_06.jpg" alt="3D">
+			<img src="img/projects/extra/extra_07.jpg" alt="Ilustración">
+			<img src="img/projects/extra/extra_08.jpg" alt="3D">
+			<img src="img/projects/extra/extra_09.jpg" alt="Ilustración">
+			<img src="img/projects/extra/extra_11.jpg" alt="Ilustración">
+			<img src="img/projects/extra/extra_12.jpg" alt="Ilustración">
+			<img src="img/projects/extra/remakezombie.jpg" alt="Ilustración">
+		</div>
+	</div>
+</div>
+<script>
+	plyr.setup('.audio-player', {
+		controls: ['play', 'progress', 'current-time', 'mute', 'volume']
+	});
+	plyr.setup('.video-player', {
+		controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+		clickToPlay: true,
+	});
+</script>
+<!-- https://github.com/Selz/plyr -->

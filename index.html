@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8" />
-	<title>Template Portafolio/blog</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Bienvenido a mi portafolio, en el podrás conocerme, contactarme y ver parte de mi trabajo. Además podrás seguirme en mi blog y ver las cosas que publico relacionadas a mi vida y hobbys.">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Rodrigo García">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" />
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+	<link rel="manifest" href="/manifest.json" />
+	<meta name="msapplication-TileColor" content="#03a9f4" />
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+	<meta name="theme-color" content="#ffffff" />
+	<title>Rodrigo García | Portafolio</title>
 	<!-- fuentes a descargar para producción -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="css/materialize.css" />
+	<link rel="stylesheet" href="css/perfect-scrollbar.css" />
+	<link rel="stylesheet" href="css/plyr.min.css" />
 	<link rel="stylesheet" href="css/main.css" />
 </head>
-<body class="no-scroll">
+<body class="no-scroll" id="scroller">
 	<header id="header">
 		<div class="header-container">
 			<img src="img/logo2016.png" alt="Temporal Logo" class="logo" />
@@ -18,22 +40,22 @@
 			    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
 			</svg>
 			<ul class="menu">
-				<li><a href="#top" class="selected">inicio</a></li>
-				<li><a href="#acerca">acerca</a></li>
-				<li><a href="#portafolio">portafolio</a></li>
-				<li><a href="#contacto">contacto</a></li>
+				<li><a href="#top" class="selected in-site">inicio</a></li>
+				<li><a href="#acerca" class="in-site">acerca</a></li>
+				<li><a href="#portafolio" class="in-site">portafolio</a></li>
+				<li><a href="#contacto" class="in-site">contacto</a></li>
 				<li><a href="blog.html">blog</a></li>
 			</ul>
 			<ul class="social">
-				<li><a href=""><img src="img/icons/facebook.svg" alt="Facebook" /></a></li>
-				<li><a href=""><img src="img/icons/twitter.svg" alt="Twitter" /></a></li>
-				<li><a href=""><img src="img/icons/github.svg" alt="Github" /></a></li>
-				<li><a href=""><img src="img/icons/behance.svg" alt="Behance" /></a></li>
+				<li><a href="https://www.facebook.com/dino.will.die" target="_blank"><img src="img/icons/facebook.svg" alt="Facebook" /></a></li>
+				<li><a href="https://twitter.com/roganoalien" target="_blank"><img src="img/icons/twitter.svg" alt="Twitter" /></a></li>
+				<li><a href="https://gitlab.com/u/roganoalien" target="_blank"><img src="img/icons/github.svg" alt="Github" /></a></li>
+				<li><a href="https://www.behance.net/roganoalien" target="_blank"><img src="img/icons/behance.svg" alt="Behance" /></a></li>
 			</ul>
 		</div>
 	</header>
 	<div class="content-container">
-		<section class="who container" id="acerca">
+		<section class="who container getPos" id="acerca">
 			<article class="about row">
 				<div class="col s12 m4 valign-wrapper">
 					<div class="profile">
@@ -66,7 +88,7 @@
 				</div>
 			</article>
 		</section>
-		<section class="portafolio" id="portafolio">
+		<section class="portafolio getPos" id="portafolio">
 			<article class="container">
 				<div class="row">
 					<div class="col s12">
@@ -75,9 +97,9 @@
 				</div>
 				<div class="row">
 					<div class="col s12 m6 l6">
-						<div class="port-container">
+						<div class="port-container" data-project="halls">
 							<div class="img-container">
-								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+								<img src="img/projects/halls/halls_min.png" alt="Herencia Halls">
 							</div>
 							<div class="color-shadow">
 								<h3>Herencia Halls</h3>
@@ -86,53 +108,64 @@
 						</div>
 					</div>
 					<div class="col s12 m6 l6">
-						<div class="port-container">
+						<div class="port-container" data-project="bw">
 							<div class="img-container">
-								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+								<img src="img/projects/bw/bw_min.png" alt="Black & White">
 							</div>
 							<div class="color-shadow">
-								<h3>Herencia Halls</h3>
-								<p>Front-End</p>
+								<h3>Black & White</h3>
+								<p>Front-End, JS</p>
 							</div>
 						</div>
 					</div>
 					<div class="col s12 m6 l6">
-						<div class="port-container">
+						<div class="port-container" data-project="hablemos">
 							<div class="img-container">
-								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+								<img src="img/projects/hablemos/hablemos_min.png" alt="Hablemos de México">
 							</div>
 							<div class="color-shadow">
-								<h3>Herencia Halls</h3>
-								<p>Front-End</p>
+								<h3>Hablemos de México</h3>
+								<p>Front-End, WordPress, JS</p>
 							</div>
 						</div>
 					</div>
 					<div class="col s12 m6 l6">
-						<div class="port-container">
+						<div class="port-container" data-project="vinte">
 							<div class="img-container">
-								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+								<img src="img/projects/vinte/vinte_min.png" alt="Vinte">
 							</div>
 							<div class="color-shadow">
-								<h3>Herencia Halls</h3>
-								<p>Front-End</p>
+								<h3>Vinte Landing</h3>
+								<p>Front-End, JS</p>
 							</div>
 						</div>
 					</div>
 					<div class="col s12 m6 l6">
-						<div class="port-container">
+						<div class="port-container" data-project="carne">
 							<div class="img-container">
-								<img src="img/portafolio_01.jpg" alt="Portafolio 01">
+								<img src="img/projects/carne/carne_min.png" alt="De Carne y Hueso">
 							</div>
 							<div class="color-shadow">
-								<h3>Herencia Halls</h3>
-								<p>Front-End</p>
+								<h3>De Carne y Hueso</h3>
+								<p>Front-End, JS</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="port-container" data-project="extra">
+							<div class="img-container">
+								<img src="img/projects/extra/extra_min.png" alt="Mis Hobbies">
+							</div>
+							<div class="color-shadow">
+								<h3>Hobbies</h3>
+								<p>Música, Video´, Fotografía e Ilustración</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</article>
 		</section>
-		<section class="contacto container" id="contacto">
+		<section class="contacto container getPos" id="contacto">
 			<div class="row">
 				<div class="co s12">
 					<h2>CONTACTO</h2>
@@ -161,14 +194,27 @@
 						<textarea name="contenido" id="contenido" placeholder="Mensaje"></textarea>
 						</div>
 						<div class="col s12">
-							<button class="btn-large waves-effect waves-light center-align" type="submit" name="action">Enviar</button>
+							<button class="btn-large waves-effect waves-light center-align send-form" type="submit" name="action">Enviar</button>
 						</div>
 					</div>
 				</form>
 			</div>
 		</section>
 	</div>
+	<footer class="content-container footer">
+		<p>Diseñado y Desarrollado por Rodrigo García</p>
+	</footer>
+	<div class="rogano-project">
+		<svg fill="#212121" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="close-icon">
+	    	<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+	    	<path d="M0 0h24v24H0z" fill="none"/>
+		</svg>
+		<div class="project-content faded">
+		</div>
+	</div>
 	<script src="js/jquery-2.2.3.js"></script>
+	<script src="js/perfect-scrollbar.js"></script>
+	<script src="js/plyr.js"></script>
 	<script src="js/portafolio.js"></script>
 	<script>
 		$(document).ready(function(){

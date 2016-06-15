@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"_alrea",
+				"_alreadySent"
+			],
+			[
+				"_po",
+				"_positions"
+			],
+			[
+				"_pos",
+				"_posY"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"projec",
+				"project-content"
+			],
+			[
+				"_sear",
+				"_searchText"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"_scr",
+				"_scrollTo"
+			],
+			[
+				"_scro",
+				"_scrollTo"
+			],
+			[
+				"_scroll",
+				"_scrollAnimate"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"_ini",
+				"_initVars"
+			],
+			[
 				"colo",
 				"color-shadow"
 			],
@@ -67,24 +115,17 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6265,
+				"buffer_size": 7429,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "stylus/sections/portfolio.styl",
+			"file": "extra.html",
 			"settings":
 			{
-				"buffer_size": 1272,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "stylus/sections/who.styl",
-			"settings":
-			{
-				"buffer_size": 1359,
-				"line_ending": "Windows"
+				"buffer_size": 1964,
+				"line_ending": "Windows",
+				"name": "extra.html"
 			}
 		}
 	],
@@ -142,22 +183,39 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/2016website",
-		"/C/xampp/htdocs/2016website/js",
-		"/C/xampp/htdocs/2016website/stylus"
+		"/C/xampp/htdocs/2016website/css",
+		"/C/xampp/htdocs/2016website/img",
+		"/C/xampp/htdocs/2016website/img/projects",
+		"/C/xampp/htdocs/2016website/img/projects/extra"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/2016website/js/materialize.js",
+		"/C/xampp/htdocs/2016website/css/plyr.min.css",
+		"/C/xampp/htdocs/2016website/js/plyr.js",
+		"/C/xampp/htdocs/2016website/vinte.html",
+		"/C/xampp/htdocs/2016website/halls.html",
+		"/C/xampp/htdocs/2016website/hablemos.html",
+		"/C/xampp/htdocs/2016website/carne.html",
+		"/C/xampp/htdocs/2016website/bw.html",
+		"/C/xampp/htdocs/2016website/stylus/global.styl",
+		"/C/xampp/htdocs/2016website/js/portafolio.js",
+		"/C/xampp/htdocs/2016website/process.php",
+		"/C/xampp/htdocs/2016website/stylus/main.styl",
 		"/C/xampp/htdocs/2016website/stylus/vars.styl",
+		"/C/xampp/htdocs/2016website/stylus/sections/contact.styl",
+		"/C/xampp/htdocs/2016website/stylus/libs/animate.styl",
+		"/C/xampp/htdocs/2016website/stylus/sections/header.styl",
+		"/C/xampp/htdocs/2016website/js/jquery-mobile-events.min.js",
+		"/C/xampp/htdocs/2016website/stylus/sections/portfolio.styl",
+		"/C/xampp/htdocs/2016website/img/icons/close.svg",
+		"/C/xampp/htdocs/2016website/css/perfect-scrollbar.css",
+		"/C/xampp/htdocs/2016website/stylus/libs/reset.styl",
+		"/C/xampp/htdocs/crepelandia2015/wp-config.php",
+		"/C/xampp/htdocs/2016website/stylus/sections/who.styl",
+		"/C/xampp/htdocs/2016website/js/materialize.js",
 		"/C/xampp/htdocs/asomas/blog/wp-config.php",
 		"/C/xampp/htdocs/asomas/blog/wp-settings.php",
 		"/C/xampp/htdocs/2016website/img/portafolio_01.jpg",
-		"/C/xampp/htdocs/2016website/stylus/sections/contact.styl",
-		"/C/xampp/htdocs/2016website/stylus/sections/portfolio.styl",
-		"/C/xampp/htdocs/2016website/stylus/main.styl",
-		"/C/xampp/htdocs/2016website/stylus/global.styl",
-		"/C/xampp/htdocs/2016website/stylus/sections/who.styl",
-		"/C/xampp/htdocs/2016website/stylus/sections/header.styl",
 		"/C/xampp/htdocs/2016website/css/materialize.css",
 		"/C/xampp/htdocs/carneHueso/stylus/sections/popup.styl",
 		"/C/xampp/htdocs/carneHueso/stylus/sections/contacto.styl",
@@ -220,6 +278,41 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"js-player",
+			"center",
+			"<strong>",
+			"</strong>",
+			"js-player",
+			"plyr-audio",
+			"append",
+			"pedido",
+			"if(!_passEvent){\n		        	e.preventDefault();\n		        }",
+			"e",
+			"console",
+			"console.log",
+			"_getPos",
+			"console.log",
+			"_getPos",
+			".top",
+			"position",
+			"png",
+			"portafolio_01.jpg",
+			"true",
+			"20px",
+			"25em",
+			"16px",
+			"4em",
+			"div",
+			"href",
+			"#03a9f4",
+			"false",
+			"#382e2a",
+			"width",
+			"ps-scrollbar-y-rail",
+			"#03a9f4",
+			"#b1841d",
+			"header",
+			"<i class=\"material-icons\">view_quilt</i> <i class=\"material-icons\">stay_current_portrait</i> <i class=\"material-icons\">done</i>",
 			"translateY",
 			"all",
 			"24",
@@ -318,7 +411,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -327,15 +420,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6265,
+						"buffer_size": 7429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4918,
-								4918
+								849,
+								849
 							]
 						],
 						"settings":
@@ -345,67 +438,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2154.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "stylus/sections/portfolio.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1258,
-								1258
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 654.0,
+						"translation.y": 3258.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "stylus/sections/who.styl",
+					"buffer": 1,
+					"file": "extra.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1359,
+						"buffer_size": 1964,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								1543,
+								1543
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"auto_name": "extra.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -416,7 +479,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -453,7 +516,7 @@
 	"project": "portafolio2016.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -491,7 +554,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 339.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
