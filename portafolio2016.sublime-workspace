@@ -115,17 +115,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7429,
+				"buffer_size": 9415,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "extra.html",
+			"file": "js/concatenate.js",
 			"settings":
 			{
-				"buffer_size": 1964,
-				"line_ending": "Windows",
-				"name": "extra.html"
+				"buffer_size": 150,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -184,12 +183,27 @@
 	[
 		"/C/xampp/htdocs/2016website",
 		"/C/xampp/htdocs/2016website/css",
-		"/C/xampp/htdocs/2016website/img",
-		"/C/xampp/htdocs/2016website/img/projects",
-		"/C/xampp/htdocs/2016website/img/projects/extra"
+		"/C/xampp/htdocs/2016website/js",
+		"/C/xampp/htdocs/2016website/stylus"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/2016website/js/portafolio.js",
+		"/C/xampp/htdocs/2016website/js/main.min.js",
+		"/C/xampp/htdocs/2016website/js/concatenate.js",
+		"/C/xampp/htdocs/2016website/css/concatenate.styl",
+		"/C/xampp/htdocs/2016website/css/concatenate.css",
+		"/C/xampp/htdocs/2016website/css/style.min.css",
+		"/C/xampp/htdocs/2016website/js/jquery-2.2.3.js",
+		"/C/xampp/htdocs/2016website/stylus/sections/header.styl",
+		"/C/xampp/htdocs/2016website/.htaccess",
+		"/C/xampp/htdocs/2016website/stylus/vars.styl",
+		"/C/xampp/htdocs/2016website/css/perfect-scrollbar.css",
+		"/C/xampp/htdocs/2016website/css/materialize.css",
+		"/C/xampp/htdocs/carneHueso/carne-y-hueso/js/concatenate.js",
+		"/C/Users/roch_/Desktop/index.html",
+		"/C/xampp/htdocs/2016website/extra.html",
+		"/C/xampp/htdocs/2016website/stylus/sections/portfolio.styl",
 		"/C/xampp/htdocs/2016website/css/plyr.min.css",
 		"/C/xampp/htdocs/2016website/js/plyr.js",
 		"/C/xampp/htdocs/2016website/vinte.html",
@@ -198,17 +212,12 @@
 		"/C/xampp/htdocs/2016website/carne.html",
 		"/C/xampp/htdocs/2016website/bw.html",
 		"/C/xampp/htdocs/2016website/stylus/global.styl",
-		"/C/xampp/htdocs/2016website/js/portafolio.js",
 		"/C/xampp/htdocs/2016website/process.php",
 		"/C/xampp/htdocs/2016website/stylus/main.styl",
-		"/C/xampp/htdocs/2016website/stylus/vars.styl",
 		"/C/xampp/htdocs/2016website/stylus/sections/contact.styl",
 		"/C/xampp/htdocs/2016website/stylus/libs/animate.styl",
-		"/C/xampp/htdocs/2016website/stylus/sections/header.styl",
 		"/C/xampp/htdocs/2016website/js/jquery-mobile-events.min.js",
-		"/C/xampp/htdocs/2016website/stylus/sections/portfolio.styl",
 		"/C/xampp/htdocs/2016website/img/icons/close.svg",
-		"/C/xampp/htdocs/2016website/css/perfect-scrollbar.css",
 		"/C/xampp/htdocs/2016website/stylus/libs/reset.styl",
 		"/C/xampp/htdocs/crepelandia2015/wp-config.php",
 		"/C/xampp/htdocs/2016website/stylus/sections/who.styl",
@@ -216,7 +225,6 @@
 		"/C/xampp/htdocs/asomas/blog/wp-config.php",
 		"/C/xampp/htdocs/asomas/blog/wp-settings.php",
 		"/C/xampp/htdocs/2016website/img/portafolio_01.jpg",
-		"/C/xampp/htdocs/2016website/css/materialize.css",
 		"/C/xampp/htdocs/carneHueso/stylus/sections/popup.styl",
 		"/C/xampp/htdocs/carneHueso/stylus/sections/contacto.styl",
 		"/C/xampp/htdocs/carneHueso/stylus/sections/servicios.styl",
@@ -278,6 +286,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ga(",
 			"js-player",
 			"center",
 			"<strong>",
@@ -411,7 +420,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -420,15 +429,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7429,
+						"buffer_size": 9415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								849,
-								849
+								3500,
+								3500
 							]
 						],
 						"settings":
@@ -438,40 +447,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3258.0,
+						"translation.y": 997.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "extra.html",
-					"semi_transient": false,
+					"file": "js/concatenate.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1964,
+						"buffer_size": 150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1543,
-								1543
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "extra.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

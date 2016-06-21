@@ -55,10 +55,14 @@ var PORTA = (function(){
 	var _initEvents = function _initEvents(){
 		_$rMenu.click(function(){
 			_$header.addClass('open');
+			// ga('send', 'event', 'rMenu', 'click', 'responsive item');
+			// ga('send', 'click', 'rMenu', 'responsive item');
 		});
 		_$logo.click(function(){
 			if(_$header.hasClass('open')){
 				_$header.removeClass('open');
+				// ga('send', 'event', 'rMenu', 'click', 'close open menu');
+				// ga('send', 'click', 'rMenu', 'close open menu');
 			}
 		});
 		_$sendForm.click(function(e){
@@ -90,6 +94,8 @@ var PORTA = (function(){
 						_goTo,
 						_toGo;
 					_animateMenu(_scrollTo, _posY, _goTo, _toGo);
+					// ga('send', 'event', 'Menu', 'click', 'normal menu item');
+					// ga('send', 'click', 'Menu', 'normal menu item');
 				}
 			} else {
 				if(_$this.hasClass('in-site')){
@@ -109,7 +115,9 @@ var PORTA = (function(){
 		// A METER EN LOS LINKS
 		_$project.on('click', function(){
 			var _search = $(this).data('project');
-			var _searchText = _search + '.html'
+			// ga('send', 'event', 'Project', 'click', 'project ' + _search + ' open');
+			// ga('send', 'click', 'Project', 'open ' + _search);
+			var _searchText = _search + '.html';
 			_$lightbox.addClass('showing');
 			$.get(_searchText, function(data){
 				$('.project-content').html(data);
@@ -129,6 +137,8 @@ var PORTA = (function(){
 			$('.close-icon').click(function(){
 				if($('.ajax-get').length){
 					$('.project-content').addClass('faded');
+					// ga('send', 'event', 'Project', 'click', 'close open project');
+					// ga('send', 'click', 'Project', 'close open project');
 					setTimeout(function(){
 						if(_notMobile){
 							Ps.destroy(document.getElementById('p-scroll'));
@@ -341,6 +351,7 @@ PORTA.contacto = (function(){
 			success: function(){
 				PORTA.alert.success();
 				// ga('send', 'click', 'form-send');
+				// ga('send', 'event', 'rMenu', 'click', 'close open menu');
 			},
 			error: function(){
 				PORTA.alert.error();
